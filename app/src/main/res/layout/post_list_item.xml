@@ -24,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
+            android:textStyle="bold"
             android:layout_marginEnd="24dp"
             tools:text="Serge Abijuru"
             app:layout_constraintEnd_toEndOf="parent"
@@ -79,8 +80,8 @@
 
         <ImageView
             android:id="@+id/imgReply"
-            android:layout_width="33dp"
-            android:layout_height="32dp"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="64dp"
             android:layout_marginEnd="24dp"
@@ -104,8 +105,8 @@
 
         <ImageView
             android:id="@+id/imgRetweet"
-            android:layout_width="33dp"
-            android:layout_height="32dp"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -128,8 +129,8 @@
 
         <ImageView
             android:id="@+id/imgLikes"
-            android:layout_width="33dp"
-            android:layout_height="32dp"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
